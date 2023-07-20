@@ -1,0 +1,18 @@
+Primarily used with Spark low level APIs.
+
+Accumulator:
+    Global mutable variable
+    Can update them on row basis
+    Can be used to implement counters and sums
+
+We can use accumulator inside a transformation or action.
+
+It is recommended to use inside an action since Spark may run the task 
+multiple times if there was a failure or task taking longer.
+
+
+Accumulators in PySpark are not visible in UI.
+Named accumulators in scala are visible in UI.
+
+Long and Float are allowed to be created as accumulators.
+We can create custom accumulators as well.
