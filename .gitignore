@@ -1,3 +1,8 @@
+# Checkpoint
+chk-point-dir/ 
+# Kafka
+kafka-logs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
